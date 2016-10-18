@@ -15,10 +15,7 @@
 
     
     <script src="/Scripts/modernizr-2.6.2.js"></script>
-
-
-    
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Mandali" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Mandali" rel="stylesheet">
 
 <script src="https://cdn.fontawesome.com:443/js/stats.js"></script><script type="text/javascript" src="chrome-extension://aadgmnobpdmgmigaicncghmmoeflnamj/ng-inspector.js"></script></head>
 <body>
@@ -57,12 +54,8 @@
             </div>
         </div>
     </header>
-   
-    
 
-
-
-<script src="https://use.fontawesome.com/6b6e46b0c3.js"></script><link rel="stylesheet" href="https://use.fontawesome.com/6b6e46b0c3.css" media="all">
+  <script src="https://use.fontawesome.com/6b6e46b0c3.js"></script><link rel="stylesheet" href="https://use.fontawesome.com/6b6e46b0c3.css" media="all">
 <div class="home-page-image center-text" style="background-image: url(../../Images/venice-beach-cali.PNG)">
     <div class="padding-top-hundred padding-bottom-hundred">
         <div>
@@ -270,13 +263,7 @@
     </div>
   </div>
 
-
-
-
-
-
- 
-        <div class="footer-background footer-header-fore-color small-margin-top container-fluid">
+<div class="footer-background footer-header-fore-color small-margin-top container-fluid">
             <div class="col-md-push-3 col-md-9">
                 <footer>
                     <div class="col-md-3">
@@ -324,8 +311,6 @@
     <script src="/Scripts/script.js"></script>
 
     <script src="/Scripts/owl-carousel.js"></script>
-
-    
 
 <!-- Visual Studio Browser Link -->
 <script type="application/json" id="__browserLink_initializationData">
