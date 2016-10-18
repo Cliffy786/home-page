@@ -1,59 +1,38 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="OnlineShoppingApplication.Pages.index" %>
+<html xmlns="http://www.w3.org/1999/xhtml" class="fa-events-icons-ready"><head><title>
+	Home Page
+</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><link href="../Content/user-styles-sheets/stylesheet.css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="../Content/bootstrap.css"><link rel="stylesheet" type="text/css" href="../Content/owl-carousel.css"><link rel="stylesheet" type="text/css" href="../Content/jquery-ui.css"><link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Mandali" rel="stylesheet">
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Home Page</title>
- <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-
-    <%--Stylesheet references--%>
-    <link href="../Content/user-styles-sheets/stylesheet.css" rel="stylesheet" />
-    <%--Bootstrap CSS reference --%>
-    <link rel="stylesheet" type="text/css" href="../Content/bootstrap.css" />
-    <%--Owl Carousel CSS References--%>
-    <link rel="stylesheet" type="text/css" href="../Content/owl-carousel.css"/>
     
-    <%-- jQueryui CSS reference--%>
-    <link rel="stylesheet" type="text/css" href="../Content/jquery-ui.css"/>
-    <%-- Alertbox stylesheet reference--%>
+
+
     
-                      <%--Fonts--%>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Mandali" rel="stylesheet"/>
-
-    <%-- Javascript references --%>
-
-
-    <%--jQuery Javascript Library reference--%>
     <script type="text/javascript" src="../Scripts/jquery-3.1.0.js"></script>
     <script type="text/javascript" src="../Scripts/jquery-ui.js"></script>
-    <%--Font Awesome Script Reference--%>
-    <script src="https://use.fontawesome.com/6b6e46b0c3.js"></script>
-   <%-- Owl Carousel Javascript reference--%>
+    
+    <script src="https://use.fontawesome.com/6b6e46b0c3.js"></script><script src="https://cdn.fontawesome.com:443/js/stats.js"></script><link rel="stylesheet" href="https://use.fontawesome.com/6b6e46b0c3.css" media="all">
+   
     <script src="../Scripts/owl.carousel.js"></script>
 
-    <%--Bootstrap Javascript Library reference--%>
+    
     <script type="text/javascript" src="../Scripts/bootstrap.js"></script>
-    <%--User script reference--%>
+    
     <script type="text/javascript" src="../Scripts/UserScripts/script.js"></script>
     <script type="text/javascript" src="../Scripts/scrollsaver.js"></script>
     <script type="text/javascript" src="Scripts/user-scripts/script.js"></script>
-</head>
+<script type="text/javascript" src="chrome-extension://aadgmnobpdmgmigaicncghmmoeflnamj/ng-inspector.js"></script></head>
 <body>
     <header>
       <div class="navbar navbar-default navbar-fixed-top">
                  <div class="container">
                <div class="navbar-header">
-                        <a class="navbar-left" runat="server" href="~/Pages/GiftCardDataPage.aspx">
-                            <img src="../Images/posworx-logo-small.jpg" alt="Posworx logo" /></a>
+                        <a href="GiftCardDataPage.aspx" class="navbar-left">
+                            <img src="../Images/posworx-logo-small.jpg" alt="Posworx logo"></a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="btn-header"><a runat="server" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;Log in</a></li>
-                            <li class="btn-header"><a runat="server" href="~/Pages/GiftCardDataPage.aspx"><span class="glyphicon glyphicon-gift"></span>&nbsp;Wish List</a></li>
-                            <li class="btn-header"><a runat="server" href="~/Pages/LoyaltyCardDataPage.aspx"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Cart</a></li>
+                            <li class="btn-header"><a href="#" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>&nbsp;Log in</a></li>
+                            <li class="btn-header"><a href="GiftCardDataPage.aspx"><span class="glyphicon glyphicon-gift"></span>&nbsp;Wish List</a></li>
+                            <li class="btn-header"><a href="LoyaltyCardDataPage.aspx"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Cart</a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,11 +41,11 @@
            <div class="container">
             <div class="navbar-collapse collapse">
                <ul class="nav navbar-nav navbar-left" style="letter-spacing:1.3px;color:#ffffff">
-                        <li><a runat="server" style="color:#ffffff;" href="#">&nbsp;Women</a></li>
-                        <li><a runat="server"  style="color:#ffffff;"  href="~/Pages/GiftCardDataPage.aspx">&nbsp;Men</a></li>
-                        <li><a runat="server" style="color:#ffffff;" href="~/Pages/LoyaltyCardDataPage.aspx">&nbsp;Kids</a></li>
-                        <li><a runat="server" style="color:#ffffff;" href="~/Pages/LoyaltyCardDataPage.aspx">&nbsp;Home</a></li>
-                        <li><a runat="server" style="color:#ffffff;" href="~/Pages/LoyaltyCardDataPage.aspx">&nbsp;Brands</a></li>
+                        <li><a href="#" style="color:#ffffff;">&nbsp;Women</a></li>
+                        <li><a href="GiftCardDataPage.aspx" style="color:#ffffff;">&nbsp;Men</a></li>
+                        <li><a href="LoyaltyCardDataPage.aspx" style="color:#ffffff;">&nbsp;Kids</a></li>
+                        <li><a href="LoyaltyCardDataPage.aspx" style="color:#ffffff;">&nbsp;Home</a></li>
+                        <li><a href="LoyaltyCardDataPage.aspx" style="color:#ffffff;">&nbsp;Brands</a></li>
                     </ul>
                  </div>
             </div>
@@ -92,7 +71,7 @@
     <div class="container-fluid">
         <div class="categories-wrapper col-md-4 col-sm-12">
             <div class="hovereffect">
-              <a href="#"><img class="img-responsive" src="../Images/womens-beach-collection.jpg" /></a>
+              <a href="#"><img class="img-responsive" src="../Images/womens-beach-collection.jpg"></a>
                         <div class="overlay">
                              <a class="info" href="#"><h2>Women</h2></a>
                           </div>
@@ -101,18 +80,18 @@
         
         <div class="categories-wrapper col-md-4 col-sm-12">
             <div class="hovereffect">
-               <a href="#"><img class="img-responsive" src="../Images/mens-beach-collection.jpg" /></a>
+               <a href="#"><img class="img-responsive" src="../Images/mens-beach-collection.jpg"></a>
                         <div class="overlay">
-                             <a  class="info" href="#"><h2>Men</h2></a>
+                             <a class="info" href="#"><h2>Men</h2></a>
                          </div>
                     </div>
         
 </div>
         <div class="categories-wrapper col-md-4 col-sm-12">
             <div class="hovereffect">
-              <a href="#"><img class="img-responsive" src="../Images/kids-beach-collection.jpg" /></a>
+              <a href="#"><img class="img-responsive" src="../Images/kids-beach-collection.jpg"></a>
                         <div class="overlay">
-                            <a  class="info" href="#"><h2>KIDS</h2></a>
+                            <a class="info" href="#"><h2>KIDS</h2></a>
                             
                         </div>
                     </div>
@@ -164,13 +143,13 @@ Kiddies are not left out of the fashionable footwear equation! Buy children’s 
 
    <div class="container-fluid">
        <div class="padding-top-five-percent col-md-1 center-text visible-md visible-lg">
-      <button class="previous slide-show-arrow-background btn btn-default btn-lg"><i class="fa fa-angle-double-left" style="font-size:96px;"></i></button>
+      <button class="previous slide-show-arrow-background btn btn-default btn-lg"><i class="fa fa-angle-double-left" style="font-size:96px;" aria-hidden="true"></i></button>
       </div>
 
   <div class="col-md-10 slide-show slide-show-background">
-      <div id="fashion-slide-show">
-     <div class="item hovereffect">
-         <img src="../Images/dc-army-bag.jpg"/>
+      <div id="fashion-slide-show" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+     <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 5094px; left: 0px; display: block; transition: all 800ms ease; transform: translate3d(-849px, 0px, 0px);"><div class="owl-item" style="width: 283px;"><div class="item hovereffect">
+         <img src="../Images/dc-army-bag.jpg">
          <div class="overlay">
              <div class="text-center center-block"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
              <div class="overlay-footer-icons">
@@ -179,101 +158,101 @@ Kiddies are not left out of the fashionable footwear equation! Buy children’s 
                <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
            </div>
      </div>
+     </div></div><div class="owl-item" style="width: 283px;"><div class="item hovereffect">
+        <img src="../Images/dc-bag-red.jpg">
+         <div class="overlay">
+             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
+             <div class="overlay-footer-icons">
+            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
+               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
+               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
+           </div>
      </div>
+     </div></div><div class="owl-item" style="width: 283px;"><div class="item hovereffect">
+        <img src="../Images/dc-hoody-blue.jpg">
+         <div class="overlay">
+             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
+             <div class="overlay-footer-icons">
+            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
+               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
+               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
+           </div>
+     </div>
+     </div></div><div class="owl-item" style="width: 283px;"><div class="item hovereffect">
+       <img src="../Images/dc-hoody-grey.jpg">
+         <div class="overlay">
+             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
+             <div class="overlay-footer-icons">
+            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
+               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
+               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
+           </div>
+     </div>
+     </div></div><div class="owl-item" style="width: 283px;"><div class="item hovereffect">
+        <img src="../Images/dc-shoes-grey.jpg">
+         <div class="overlay">
+             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
+             <div class="overlay-footer-icons">
+            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
+               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
+               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
+           </div>
+     </div>
+     </div></div><div class="owl-item" style="width: 283px;"><div class="item hovereffect">
+        <img src="../Images/dc-shoes-red-black.jpg">
+         <div class="overlay">
+             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
+             <div class="overlay-footer-icons">
+            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
+               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
+               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
+           </div>
+     </div>
+     </div></div><div class="owl-item" style="width: 283px;"><div class="item hovereffect">
+        <img src="../Images/fox-sweater-black.jpg">
+         <div class="overlay">
+             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
+             <div class="overlay-footer-icons">
+            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
+               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
+               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
+           </div>
+     </div>
+     </div></div><div class="owl-item" style="width: 283px;"><div class="item hovereffect">
+          <img src="../Images/keep-calm-and-hold-on-jeep-wrangler-mens-hoodie.jpg">
+         <div class="overlay">
+             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
+             <div class="overlay-footer-icons">
+            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
+               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
+               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
+           </div>
+     </div>
+     </div></div><div class="owl-item" style="width: 283px;"><div class="item hovereffect">
+          <img src="../Images/quiksilver-hoody-grey.jpg">
+         <div class="overlay">
+             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
+             <div class="overlay-footer-icons">
+            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
+               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
+               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
+           </div>
+     </div>
+     </div></div></div></div>
 
 
-    <div class="item hovereffect">
-        <img src="../Images/dc-bag-red.jpg" />
-         <div class="overlay">
-             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
-             <div class="overlay-footer-icons">
-            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
-               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
-               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
-           </div>
-     </div>
-     </div>
-    <div class="item hovereffect">
-        <img src="../Images/dc-hoody-blue.jpg" />
-         <div class="overlay">
-             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
-             <div class="overlay-footer-icons">
-            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
-               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
-               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
-           </div>
-     </div>
-     </div>
-   <div class="item hovereffect">
-       <img src="../Images/dc-hoody-grey.jpg" />
-         <div class="overlay">
-             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
-             <div class="overlay-footer-icons">
-            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
-               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
-               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
-           </div>
-     </div>
-     </div>
-    <div class="item hovereffect">
-        <img src="../Images/dc-shoes-grey.jpg" />
-         <div class="overlay">
-             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
-             <div class="overlay-footer-icons">
-            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
-               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
-               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
-           </div>
-     </div>
-     </div>
-    <div class="item hovereffect">
-        <img src="../Images/dc-shoes-red-black.jpg" />
-         <div class="overlay">
-             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
-             <div class="overlay-footer-icons">
-            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
-               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
-               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
-           </div>
-     </div>
-     </div>
-    <div class="item hovereffect">
-        <img src="../Images/fox-sweater-black.jpg" />
-         <div class="overlay">
-             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
-             <div class="overlay-footer-icons">
-            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
-               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
-               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
-           </div>
-     </div>
-     </div>
-      <div class="item hovereffect">
-          <img src="../Images/keep-calm-and-hold-on-jeep-wrangler-mens-hoodie.jpg" />
-         <div class="overlay">
-             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
-             <div class="overlay-footer-icons">
-            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
-               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
-               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
-           </div>
-     </div>
-     </div>
-      <div class="item hovereffect">
-          <img src="../Images/quiksilver-hoody-grey.jpg" />
-         <div class="overlay">
-             <div class="text-center center-block overlay-margin-top"><i class="fa fa-eye" aria-hidden="true" style="font-size:96px;color:rgba(255, 255, 255, 0.89)"></i></div>
-             <div class="overlay-footer-icons">
-            <i class="fa fa-heart" aria-hidden="true" style="color:rgba(255, 0, 0, 0.85)"></i>
-               <i class="fa fa-eye" aria-hidden="true" style="color:rgba(255, 255, 255, 0.89)"></i>
-               <i class="fa fa-shopping-cart" aria-hidden="true" style="color:rgba(255, 216, 0, 0.86)"></i>
-           </div>
-     </div>
-     </div>
-   </div>
+    
+    
+   
+    
+    
+    
+      
+      
+   <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
 </div>
 <div class="padding-top-five-percent  col-md-1 center-text visible-md visible-lg">
-      <button class="next slide-show-arrow-background btn btn-default btn-lg"><i class="fa fa-angle-double-right" style="font-size:96px;"></i></button>
+      <button class="next slide-show-arrow-background btn btn-default btn-lg"><i class="fa fa-angle-double-right" style="font-size:96px;" aria-hidden="true"></i></button>
       </div>
    </div>
       
@@ -343,5 +322,12 @@ Kiddies are not left out of the fashionable footwear equation! Buy children’s 
      </footer>
         </div>
         </div>
-   </body>
+   
+<!-- Visual Studio Browser Link -->
+<script type="application/json" id="__browserLink_initializationData">
+    {"appName":"Chrome","requestId":"6322b9ee5eae4d35bd5e19322c5d4871"}
+</script>
+<script type="text/javascript" src="http://localhost:51103/40a2f7482ac54e31b2d97fe6cc3cef73/browserLink" async="async"></script>
+<!-- End Browser Link -->
+</body>
 </html>
